@@ -1,0 +1,347 @@
+html,
+body {
+    height: 100%;
+    background: #FFDFF8
+}
+
+.wrapper {
+    width: 1172px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.main-page {
+    background: linear-gradient(180deg, #FFF7FD 0%, #BF6FC1 100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-top: 44px;
+    margin-bottom: 68px;
+    position: absolute;
+    display: flex;
+    left: 36px;
+    top: 0;
+}
+
+.logo-text {
+    font-family: 'Source Serif Pro', serif;
+    margin-left: 16px;
+}
+
+.banderogoose-container {
+    background: #F2DBF0;
+    margin-top: 144px;
+    margin-left: 50px;
+    margin-bottom: 28px;
+    padding: 56px 42px 26px 55px;
+    width: 572px;
+    align-self: flex-end;
+}
+
+.banderogoose-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #7B00A6;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 24px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.36);
+}
+
+.banderogoose-greeting {
+    font-family: 'Orelega One', cursive;
+    color: #010035;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.banderogoose-start-text {
+    font-family: 'Orelega One', cursive;
+    color: #850068;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 24px;
+    margin-bottom: 88px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.44);
+}
+
+.banderogoose-description {
+    font-family: 'PT Serif Caption', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.banderogoose-launch {
+    font-family: 'EB Garamond', serif;
+    color: #FFA3E0;
+    background: linear-gradient(180deg, #69009A 0%, #980089 100%);
+    border-radius: 13px;
+    padding: 32px 12px;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 24px;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.36);
+    cursor: pointer;
+}
+
+.main-page-row {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.banderogoose-image {
+    height: 717px;
+    width: 640px;
+    left: 53px;
+    align-self: flex-end;
+}
+
+.goose-facts {
+    padding: 88px 0 78px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goose-title {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 24px;
+    color: #000000;
+    margin: 40px 0 36px 0;
+}
+
+.goose-description {
+    font-family: 'STIX Two Text', serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    width: 846px;
+}
+
+.goose-facts-container {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.goose-fact-item {
+    width: 30%;
+}
+
+.goose-fact-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 24px;
+    color: #000000;
+    margin: 13px 0 24px 0;
+}
+
+.goose-fact-description {
+    font-family: 'STIX Two Text', serif;
+    font-weight: 444px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.victory-bgd {
+    width: 1172px;
+    background: linear-gradient(180deg, #CD0087 0%, #F9B1E3 77.6%, #FFDFF8 100%);
+    padding: 78px 0;
+    margin-bottom: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.victory-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.victory-title {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 24px;
+    color: #000000;
+    margin: 40px 0;
+}
+
+.victory-description {
+    font-family: 'STIX Two Text', serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    width: 846px;
+    color: #000000;
+    text-align: center;
+}
+
+.modal-bgd {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(56, 0, 99, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-form-container {
+    background: #D9D9D9;
+    padding: 40px 138px 28px 138px;
+    position: relative;
+}
+
+.modal-form-title {
+    font-family: 'Orelega One';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin: 32px 0 26px 0;
+}
+
+.modal-form-description {
+    font-family: 'Orelega One';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.modal-field-name {
+    font-family: 'STIX Two Text', serif;
+    width: 56px;
+    height: 24px;
+    left: 443px;
+    top: 334px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.modal-field-input {
+    font-family: 'Orelega One';
+    width: 490px;
+    height: 50px;
+    left: 435px;
+    top: 363px;
+    background: #DCCFD7;
+    border: 1px solid #92008B;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+    color: #000000;
+    padding: 2px 16px;
+}
+
+.modal-form-btn {
+    font-family: 'EB Garamond', serif;
+    color: #FFA3E0;
+    background: linear-gradient(180deg, #69009A 0%, #980089 100%);
+    border-radius: 13px;
+    padding: 32px 12px;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 24px;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.36);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.close-btn {
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    right: 20px;
+    top: -13px;
+    font-size: 66px;
+    color: #000000;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+
+.modal-background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(112, 2, 94, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-description {
+    font-family: 'Orelega One';
+    margin-bottom: 32px;
+}
+
+.modal-active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
